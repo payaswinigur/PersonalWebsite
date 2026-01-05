@@ -157,6 +157,7 @@ main img {
   font-size: 1em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
 }
+
 .gallery {
   display: flex;
   justify-content: center;
