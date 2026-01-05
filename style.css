@@ -79,8 +79,8 @@ header h1 {
 
 #grad1 {
   height: 200px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom, red, yellow);
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, white, background-color);
 /* Style for the main content area */
 } 
 
