@@ -3,7 +3,7 @@ window.addEventListener("scroll", () => {
   const docHeight =
     document.documentElement.scrollHeight - window.innerHeight;
 
-  const scrollProgress = Math.min(scrollTop / docHeight, 1);
+  const scrollProgress = Math.min(Math.pow(scrollTop / docHeight, 1.3), 1);
 
   document.documentElement.style.setProperty(
     "--darkness",
