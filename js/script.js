@@ -4,7 +4,7 @@ window.addEventListener("scroll", () => {
     document.documentElement.scrollHeight - window.innerHeight;
 
   const scrollProgress = Math.min(
-    Math.pow(scrollTop / docHeight, 1.3),
+    Math.pow(scrollTop / docHeight, 0.9),
     1
   );
 
